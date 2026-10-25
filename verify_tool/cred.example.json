@@ -1,0 +1,14 @@
+{
+  "_comment": "复制成 cred.json 后填入自己的信息。cred.json 已被 .gitignore 忽略，绝不要提交。",
+  "phone": "",
+  "device_id": "",
+  "refresh_token": "",
+  "token_type": "Bearer",
+  "expires_in": 0,
+  "main_bearer": "",
+  "hac_key": "",
+  "key_id": "",
+  "session_cookies": [],
+  "vin": "",
+  "plate_no": ""
+}
