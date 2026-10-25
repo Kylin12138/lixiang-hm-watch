@@ -1,0 +1,24 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "理想汽车车控手表端"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "理想车控主入口"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "理想车控"
+    },
+    {
+      "name": "reason_internet",
+      "value": "需要网络以连接理想汽车服务器下发车控指令"
+    },
+    {
+      "name": "reason_network_info",
+      "value": "需要读取网络状态以判断连接可用性"
+    }
+  ]
+}

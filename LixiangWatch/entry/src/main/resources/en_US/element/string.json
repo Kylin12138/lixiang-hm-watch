@@ -1,0 +1,24 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "Li Auto vehicle control for smartwatch"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "Main entry of Li Auto watch control"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "LiAuto"
+    },
+    {
+      "name": "reason_internet",
+      "value": "Network access is required to send vehicle control commands"
+    },
+    {
+      "name": "reason_network_info",
+      "value": "Network state is required to check connectivity"
+    }
+  ]
+}

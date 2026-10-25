@@ -1,0 +1,16 @@
+{
+  "app": {
+    "bundleName": "com.kylin.lixianghmwatch",
+    "vendor": "kylin",
+    "versionCode": 1000000,
+    "versionName": "1.0.0",
+    "icon": "$media:app_icon",
+    "label": "$string:app_name",
+    // ★ 必须与 build-profile.json5 的 compatibleSdkVersion / targetSdkVersion
+    //   保持一致（同为 26.0.0）。此前这里是 12 / 20，与编译目标 API 26 矛盾，
+    //   属于配置漂移：一旦 hvigor 版本按此处校验，就会出现「能编译但装不上」
+    //   或「装上了但 API 能力被降到 12」的诡异问题。
+    "minAPIVersion": 26,
+    "targetAPIVersion": 26
+  }
+}

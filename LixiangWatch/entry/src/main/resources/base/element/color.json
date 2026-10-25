@@ -1,0 +1,44 @@
+{
+  "color": [
+    {
+      "name": "start_window_background",
+      "value": "#000000"
+    },
+    {
+      "name": "lx_bg",
+      "value": "#000000"
+    },
+    {
+      "name": "lx_card",
+      "value": "#1A1A1C"
+    },
+    {
+      "name": "lx_card_pressed",
+      "value": "#2A2A2E"
+    },
+    {
+      "name": "lx_primary",
+      "value": "#0FA98D"
+    },
+    {
+      "name": "lx_text",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "lx_text_dim",
+      "value": "#8E8E93"
+    },
+    {
+      "name": "lx_success",
+      "value": "#30D158"
+    },
+    {
+      "name": "lx_danger",
+      "value": "#FF453A"
+    },
+    {
+      "name": "lx_warn",
+      "value": "#FF9F0A"
+    }
+  ]
+}
