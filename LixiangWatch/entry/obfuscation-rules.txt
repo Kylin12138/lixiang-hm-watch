@@ -1,0 +1,6 @@
+# 混淆规则（release 构建时生效）
+# 注意：本工程涉及大量字符串常量和协议字段名，混淆容易导致协议失配，
+# 默认关闭。如需开启，务必排除 core/protocol 与 core/crypto 目录。
+-enable-property-obfuscation
+-enable-toplevel-obfuscation
+-keep-global-name

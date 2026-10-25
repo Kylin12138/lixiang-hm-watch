@@ -1,0 +1,54 @@
+# ---- 构建产物 ----
+/LixiangWatch/build/
+/LixiangWatch/entry/build/
+/LixiangWatch/entry/.preview/
+/LixiangWatch/.hvigor/
+/.hvigor/
+**/oh_modules/
+*.har
+*.hap
+*.hsp
+*.app
+
+# ---- IDE / 编辑器 ----
+/LixiangWatch/.idea/
+/.idea/
+*.iml
+.local.properties
+.vscode/
+.DS_Store
+Thumbs.db
+
+# ---- 签名材料（★ 等同应用身份，绝不能提交）----
+# 只放行说明文档，其余证书/密钥/Profile 一律忽略
+/LixiangWatch/signature/*
+!/LixiangWatch/signature/README.md
+*.p12
+*.cer
+*.p7b
+*.keystore
+*.jks
+*.csr
+
+# ---- 凭据与本地环境（★ 绝不可提交）----
+# cred.json 里含 refresh_token / bearer / hac_key，等同车辆控制权
+verify_tool/cred.json
+scripts/local.env
+.env
+.env.*
+
+# ---- 运行时临时文件 ----
+/.tmp/
+/_ref_ha_lixiang/
+/*.jpeg
+/*.png
+/*.jpg
+*.log
+
+# ---- 工具缓存 ----
+.workbuddy/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/

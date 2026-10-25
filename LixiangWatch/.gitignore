@@ -1,0 +1,30 @@
+# ---- 构建产物 ----
+/build/
+/entry/build/
+/entry/.preview/
+/.hvigor/
+/oh_modules/
+/entry/oh_modules/
+*.har
+*.hap
+*.hsp
+
+# ---- IDE ----
+/.idea/
+/.cxx/
+/.clangd
+/.clang-format
+/.clang-tidy
+*.iml
+
+# ---- 签名材料（★安全：等同应用身份，绝不能提交）----
+/signature/
+*.p12
+*.cer
+*.p7b
+*.keystore
+
+# ---- 本地环境与凭据 ----
+/local.properties
+/scripts/generated/
+**/cred.json

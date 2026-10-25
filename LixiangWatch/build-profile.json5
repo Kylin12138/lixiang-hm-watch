@@ -1,0 +1,57 @@
+{
+  "app": {
+    // ★★★ 签名配置（必读）
+    //
+    // 【当前状态】signingConfigs 为空 —— 构建产出 entry-default-unsigned.hap，
+    //   可以编译、可以跑 Previewer，但【装不进真机】。
+    //
+    // 【为什么仓库里不带签名】
+    //   1. 装华为真机必须用 AGC（华为开发者联盟）签发的调试证书 + Profile，
+    //      其中 Profile 里写死了「允许安装的设备 UDID 白名单」——这是开发者私产；
+    //   2. DevEco 回填的 keyPassword / storePassword 是 AES 密文，
+    //      但密文与 p12/cer 一旦同时泄露，等同他人可以给你的应用签名。
+    //
+    // 【正确做法】见 signature/README.md：
+    //   DevEco 登录华为账号 → File > Project Structure > Project >
+    //   Signing Configs → 勾选 Automatically generate signature
+    //   → DevEco 自动回填本节（含密文），本地生效且不要提交到 git。
+    "signingConfigs": [],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compatibleSdkVersion": "26.0.0",
+        "targetSdkVersion": "26.0.0",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug"
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

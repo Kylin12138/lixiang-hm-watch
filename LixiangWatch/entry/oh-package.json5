@@ -1,0 +1,9 @@
+{
+  "name": "entry",
+  "version": "1.0.0",
+  "description": "理想车控手表端主模块",
+  "main": "",
+  "author": "kylin",
+  "license": "MIT",
+  "dependencies": {}
+}

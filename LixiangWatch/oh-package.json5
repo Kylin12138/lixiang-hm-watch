@@ -1,0 +1,13 @@
+{
+  "modelVersion": "5.0.0",
+  "name": "lixianghmwatch",
+  "version": "1.0.0",
+  "description": "理想汽车第三方车控手表应用（HarmonyOS Watch）",
+  "main": "",
+  "author": "kylin",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@ohos/hypium": "1.0.19"
+  }
+}
