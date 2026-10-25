@@ -18,7 +18,7 @@
 
 ## 项目简介
 
-**项目名称**：理想汽车手表端车控 App（英文标识 `Lixiang HM Watch`，仓库名 `lixiang-hm-watch`）
+**项目名称**：理想汽车鸿蒙手表端车控 App（英文标识 `Lixiang HM Watch`，仓库名 `lixiang-hm-watch`）
 
 **包名**：`com.kylin.lixianghmwatch`
 

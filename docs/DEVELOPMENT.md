@@ -1,6 +1,6 @@
-# 理想汽车手表端车控 App（Lixiang HM Watch）—— 开发手记
+# 理想汽车鸿蒙手表端车控 App（Lixiang HM Watch）—— 开发手记
 
-> **项目名称**：理想汽车手表端车控 App（`Lixiang HM Watch`，仓库 `lixiang-hm-watch`）
+> **项目名称**：理想汽车鸿蒙手表端车控 App（`Lixiang HM Watch`，仓库 `lixiang-hm-watch`）
 > **定位**：为 **HarmonyOS 7 手表端**（`wearable`，API 26）开发的原生车控应用
 > **适用设备**：华为 Watch 6（466×466 圆屏，NIZ-AL00）实机验证；其他圆屏机型未验证
 > 功能：① 解闭车锁 ② 授权驾驶 ③ 开关空调 ④ 寻车
